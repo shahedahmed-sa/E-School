@@ -1,0 +1,262 @@
+/* // Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+    /* header strat  */
+    header{
+        padding:0;
+    }
+    .menu ul li a{
+        padding: 0 0 5px 10px !important;
+    }
+    .logo {
+        width: 170px;
+    }
+        /* banner start  */
+.b_img{
+    padding: 0;
+    margin-bottom: 20px;
+}
+.banner_text{
+    text-align: center;
+}
+.banner_text h1{
+ 
+    padding: 0 0 0;
+    Font-size: 30px;
+    line-height: 40px;
+
+}
+.b_p2{
+    line-height: 24px;
+    padding:0  ;
+
+}
+.btn_g{
+   
+    margin: 15px auto 0;
+    
+}
+/* feature start  */
+.f_item{
+    margin-top: 24px;
+    padding: 50px 0 45px;
+}
+
+.feature{
+    padding: 16px 0 60px;
+}
+/* course  */
+.ct_pad{
+    padding-bottom: 60px;
+}
+.c_course{
+    margin: 24px 0 0;
+    /* padding: 25px 20px 30px; */
+    padding: 10px 10px 20px;
+}
+.ct_h1{
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 40px;
+}
+.mr_0{
+    margin-right: 2px !important;
+}
+.c_left ul li img ,.c_right ul li img{
+    height: 15px;
+}
+.c_left ul li span , .c_right ul li span {
+    font-weight: 400;
+   font-size: 15px;
+  
+}
+ /* slider start  */
+ .s_text p {
+   
+    margin-left: 0px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+}
+.s_img img {
+    width: 120px;
+    height: 120px;
+    margin-right: 12px;
+}
+.blog {
+    padding-top: 22px;
+}
+footer {
+    padding-bottom: 30px;
+}
+
+
+}
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    /* header start  */
+    header{
+        padding:0;
+    }
+    .menu ul li a{
+        padding: 0 0 5px 10px !important;
+    }
+    /* banner start  */
+.b_img{
+    padding: 0 70px;
+    margin-bottom: 30px;
+}
+.banner_text{
+    text-align: center;
+}
+.banner_text h1{
+ 
+    padding: 0 100px 0;
+    Font-size: 35px;
+    line-height: 45px;
+
+}
+.b_p2{
+    line-height: 24px;
+    padding:0 50px ;
+
+}
+.btn_g{
+   
+    margin: 15px auto 0;
+    
+}
+/* feature start  */
+.f_item{
+    margin-top: 24px;
+}
+
+.feature{
+    padding: 16px 0 60px;
+}
+/* course  */
+.ct_pad{
+    padding-bottom: 60px;
+}
+.c_course{
+    margin: 25px 60px 0;
+    /* padding: 25px 20px 30px; */
+}
+.ct_h1{
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 40px;
+}
+/* slider start  */
+.s_text p {
+
+    margin-left: 29px;
+    font-weight: 400;
+    line-height: 22px;
+}
+.blog {
+    padding-top: 40px;
+}
+footer {
+    padding-bottom: 45px;
+}
+
+ }
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    /* header start  */
+header{
+    padding: 10px 0;
+}
+.menu ul li a{
+    padding: 0 0 5px 10px !important;
+}
+/* banner start  */
+.b_img{
+    padding: 0 100px;
+    margin-bottom: 30px;
+}
+.banner_text{
+    text-align: center;
+}
+.banner_text h1{
+ 
+    padding: 0 100px 0;
+    Font-size: 45px;
+    line-height: 50px;
+
+}
+.b_p2{
+    line-height: 24px;
+    padding:0 75px ;
+
+}
+.btn_g{
+   
+    margin: 15px auto 0;
+    
+}
+.f_item{
+    margin-top: 24px;
+}
+/* feature start  */
+.feature{
+    padding: 16px 0 80px;
+}
+/* course start  */
+.ct_pad{
+    padding-bottom: 80px;
+}
+.c_course{
+    margin: 40px 130px 0;
+    padding: 25px 20px 30px;
+}
+/* slider start  */
+.s_text p {
+    margin-left: 41px;
+    font-weight: 400;
+    line-height: 25px;
+}
+.footer {
+    padding-bottom: 65px;
+}
+
+
+ }
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+/* feature start  */
+.f_item{
+    
+    padding: 50px 0 45px ;
+}
+/* .f_img{
+    width: 55px;
+    height: 65px;
+} */
+/* course  */
+.c_course{
+    padding: 13px 13px 20px;
+}
+.mr_0{
+    margin-right: 2px !important;
+}
+.c_left ul li img ,.c_right ul li img{
+    height: 15px;
+}
+.c_left ul li span , .c_right ul li span {
+    font-weight: 400;
+  
+}
+ 
+
+ }
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+            
+
+
+ }
